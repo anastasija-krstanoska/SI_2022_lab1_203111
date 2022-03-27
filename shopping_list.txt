@@ -1,0 +1,5 @@
+eggs
+apples
+water
+cake
+ham
