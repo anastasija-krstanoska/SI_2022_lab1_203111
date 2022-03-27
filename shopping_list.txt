@@ -1,5 +1,5 @@
 eggs x 2
-apples x 2
+apples x 6
 water x 2
 cake x 2
 ham x 2
