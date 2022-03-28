@@ -1,0 +1,183 @@
+git clone https://github.com/anastasijakrstanoska/SI_2022_lab1_203111.git
+Репозиториумот го клонирав во мојот компјутер.
+
+git init 
+Започнав процес
+
+git add . Додадов 
+
+git commit -m 'Add 5 items to the shopping list'
+Нов комит на shopping_list со порака Add 5 items to the shopping list .
+
+git commit -a -m 'Add quantities to the items'
+Промена на shopping_list
+
+git checkout -b branch1
+нова гранка
+
+git checkout master
+враќање на мастер
+
+git checkout -b branch2
+креирање уште една нова гранка
+
+
+
+
+git log 
+$ git log
+commit 75d38ee784a36471ab9473bb022e47185ae71577 (HEAD -> branch2, master, branch1)
+Author: anastasija-krstanoska <anastasija.krstanoska@students.finki.ukim.mk>
+Date:   Mon Mar 28 01:01:30 2022 +0200
+
+    Add quantities to the items
+
+commit e247d140b5f15696e7d845a12b44ab13c8a577c6
+Author: anastasija-krstanoska <anastasija.krstanoska@students.finki.ukim.mk>
+Date:   Mon Mar 28 01:00:33 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 80fae959bfb2fb44860d82215c0c216ae55581cf (origin/master, origin/HEAD)
+Author: Anastasija <99077200+anastasija-krstanoska@users.noreply.github.com>
+Date:   Mon Mar 28 00:55:16 2022 +0200
+
+    Update README.md
+
+commit e04f9e051ad04d667985e33abf20e10e0dacc406
+Author: Anastasija <99077200+anastasija-krstanoska@users.noreply.github.com>
+Date:   Mon Mar 28 00:54:38 2022 +0200
+
+:
+commit 75d38ee784a36471ab9473bb022e47185ae71577 (HEAD -> branch2, master, branch1)
+Author: anastasija-krstanoska <anastasija.krstanoska@students.finki.ukim.mk>
+Date:   Mon Mar 28 01:01:30 2022 +0200
+
+    Add quantities to the items
+
+commit e247d140b5f15696e7d845a12b44ab13c8a577c6
+Author: anastasija-krstanoska <anastasija.krstanoska@students.finki.ukim.mk>
+Date:   Mon Mar 28 01:00:33 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 80fae959bfb2fb44860d82215c0c216ae55581cf (origin/master, origin/HEAD)
+Author: Anastasija <99077200+anastasija-krstanoska@users.noreply.github.com>
+Date:   Mon Mar 28 00:55:16 2022 +0200
+
+    Update README.md
+
+commit e04f9e051ad04d667985e33abf20e10e0dacc406
+Author: Anastasija <99077200+anastasija-krstanoska@users.noreply.github.com>
+Date:   Mon Mar 28 00:54:38 2022 +0200
+
+----
+git push ->
+Синхронизација на досегашните промени со оддалечениот репозиториум.
+
+git checkout branch1
+враќање на гранката branch1
+
+git commit -a -m 'Change quantity of item #5'
+Истовремено додавање и модификација на shopping_list, и commit на истото
+
+git checkout master
+враќање на гранката master
+
+
+git commit -a -m 'Change quantity of item #2'
+Истовремено додавање и модификација на shopping_list, и commit на истото
+
+git push ->
+Синхронизација на досегашните промени со оддалечениот репозиториум.
+
+git checkout branch2
+на гранката branch2
+
+git commit -a -m 'Change quantity of item #4'
+Истовремено додавање и модификација на shopping_list, и commit на истото
+
+$ git log
+commit 75d38ee784a36471ab9473bb022e47185ae71577 (HEAD -> branch2, master, branch1)
+Author: anastasija-krstanoska <anastasija.krstanoska@students.finki.ukim.mk>
+Date:   Mon Mar 28 01:01:30 2022 +0200
+
+    Add quantities to the items
+
+commit e247d140b5f15696e7d845a12b44ab13c8a577c6
+Author: anastasija-krstanoska <anastasija.krstanoska@students.finki.ukim.mk>
+Date:   Mon Mar 28 01:00:33 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 80fae959bfb2fb44860d82215c0c216ae55581cf (origin/master, origin/HEAD)
+Author: Anastasija <99077200+anastasija-krstanoska@users.noreply.github.com>
+Date:   Mon Mar 28 00:55:16 2022 +0200
+
+    Update README.md
+
+commit e04f9e051ad04d667985e33abf20e10e0dacc406
+Author: Anastasija <99077200+anastasija-krstanoska@users.noreply.github.com>
+Date:   Mon Mar 28 00:54:38 2022 +0200
+
+:
+commit 75d38ee784a36471ab9473bb022e47185ae71577 (HEAD -> branch2, master, branch1)
+Author: anastasija-krstanoska <anastasija.krstanoska@students.finki.ukim.mk>
+Date:   Mon Mar 28 01:01:30 2022 +0200
+
+    Add quantities to the items
+
+commit e247d140b5f15696e7d845a12b44ab13c8a577c6
+Author: anastasija-krstanoska <anastasija.krstanoska@students.finki.ukim.mk>
+Date:   Mon Mar 28 01:00:33 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 80fae959bfb2fb44860d82215c0c216ae55581cf (origin/master, origin/HEAD)
+Author: Anastasija <99077200+anastasija-krstanoska@users.noreply.github.com>
+Date:   Mon Mar 28 00:55:16 2022 +0200
+
+    Update README.md
+
+commit e04f9e051ad04d667985e33abf20e10e0dacc406
+Author: Anastasija <99077200+anastasija-krstanoska@users.noreply.github.com>
+Date:   Mon Mar 28 00:54:38 2022 +0200
+
+:
+commit 75d38ee784a36471ab9473bb022e47185ae71577 (HEAD -> branch2, master, branch1)
+Author: anastasija-krstanoska <anastasija.krstanoska@students.finki.ukim.mk>
+Date:   Mon Mar 28 01:01:30 2022 +0200
+
+    Add quantities to the items
+
+commit e247d140b5f15696e7d845a12b44ab13c8a577c6
+Author: anastasija-krstanoska <anastasija.krstanoska@students.finki.ukim.mk>
+Date:   Mon Mar 28 01:00:33 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 80fae959bfb2fb44860d82215c0c216ae55581cf (origin/master, origin/HEAD)
+Author: Anastasija <99077200+anastasija-krstanoska@users.noreply.github.com>
+Date:   Mon Mar 28 00:55:16 2022 +0200
+
+    Update README.md
+
+commit e04f9e051ad04d667985e33abf20e10e0dacc406
+Author: Anastasija <99077200+anastasija-krstanoska@users.noreply.github.com>
+Date:   Mon Mar 28 00:54:38 2022 +0200
+
+:
+
+
+20.Да се случи конфликт ( conflict: shopping_list.txt) кога се обидев да се вратам на master гранката.
+Го решив со командата
+git stash save 
+Стратегија: non-fast-forward
+
+21. Ќе додадам текстуална дадотека. Со нов комит git commit -a -m 'Add docs'
+
+22.git push 
+
+:D
+
+
