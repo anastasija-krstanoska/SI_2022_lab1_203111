@@ -174,6 +174,10 @@ Date:   Mon Mar 28 00:54:38 2022 +0200
 git stash save 
 Стратегија: non-fast-forward
 
+CONFLICT (content): Merge conflict in shopping_list.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+
 21. Ќе додадам текстуална дадотека. Со нов комит git commit -a -m 'Add docs'
 
 22.git push 
